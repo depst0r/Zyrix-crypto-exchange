@@ -1,0 +1,24 @@
+{
+  "name": "zyrex",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depst0r/Zyrix-crypto-exchange.git"
+  },
+  "author": "@sergey_panteleenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depst0r/Zyrix-crypto-exchange/issues"
+  },
+  "homepage": "https://github.com/depst0r/Zyrix-crypto-exchange#readme",
+  "description": "",
+  "devDependencies": {
+    "postcss-pxtorem": "^6.1.0",
+    "sass": "^1.92.1",
+    "vite": "^7.1.5"
+  }
+}
