@@ -1,0 +1,59 @@
+@use '/src/sass/base/variable.scss'as*;
+
+@function container-padding($width) {
+    @if $width <=320 {
+        @return $breakpoints-xs;
+    }
+
+    @else if $width <=375 {
+        @return $breakpoints-sm;
+    }
+
+    @else if $width <=425 {
+        @return $breakpoints-md;
+    }
+
+    @else if $width <=768 {
+        @return $breakpoints-lg;
+    }
+
+    @else if $width <=1024 {
+        @return $breakpoints-xl;
+    }
+
+    @else if $width <=1440 {
+        @return $breakpoints-xxl;
+    }
+
+    @else {
+        @return $breakpoints-xxxl;
+    }
+}
+
+.container {
+    padding: container-padding(320);
+
+    @media screen and (min-width: 375px) {
+        padding: container-padding(375);
+    }
+
+    @media screen and (min-width: 425px) {
+        padding: container-padding(425);
+    }
+
+    @media screen and (min-width:768px) {
+        padding: container-padding(768);
+    }
+
+    @media screen and (min-width:1024px) {
+        padding: container-padding(1024);
+    }
+
+    @media screen and (min-width:1440px) {
+        padding: container-padding(1440);
+    }
+
+    @media screen and (min-width:1920px) {
+        padding: container-padding(1920);
+    }
+}

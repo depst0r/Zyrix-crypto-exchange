@@ -1,3 +1,5 @@
+@use '/src/sass/base/variable.scss'as *;
+
 h1,
 h2,
 h3,
@@ -8,6 +10,7 @@ p,
 ol,
 ul {
     margin: 0;
+    padding: 0;
 }
 
 ol[role="list"],
@@ -32,4 +35,12 @@ img {
 
 html {
     scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
