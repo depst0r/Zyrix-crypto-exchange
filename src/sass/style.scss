@@ -6,3 +6,11 @@
 //* Libs
 @use '/src/sass/libs/modern-normalize.min.css';
 @use '/src/sass/libs/poppins.css';
+
+//* Blocks
+@use '/src/sass/blocks/header.scss';
+@use '/src/sass/blocks/footer.scss';
+
+//* UI
+@use '/src/sass/ui/helpers.scss';
+@use '/src/sass/ui/display.scss';
